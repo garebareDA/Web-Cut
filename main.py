@@ -88,7 +88,7 @@ class button_create:
 class app :
     def __init__(self):
         app = wx.App()
-        frame = wx.Frame(None, wx.ID_ANY, 'Hello,World', size=(200, 400))
+        frame = wx.Frame(None, wx.ID_ANY, 'Web_cut', size=(200, 400))
 
         panel = scrolled.ScrolledPanel(frame, wx.ID_ANY)
         panel.SetupScrolling()
